@@ -1,0 +1,83 @@
+<div
+  class="h-full bg-app-primay-dark rounded-[18px] w-full p-4 sm:gap-6 sm:p-8"
+>
+  @if (isFormSuccess()) {
+    <div class="h-full">
+      <div
+        class="flex h-full flex-col justify-center items-center gap-4 p-6 sm:gap-6 sm:p-12 lg:min-h-[700px]"
+      >
+        <span
+          class="rounded-full text-app-secondary-dark bg-white flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14"
+        >
+          <svg
+            width="33"
+            height="33"
+            viewBox="0 0 33 33"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0 19.5211C0 19.5211 3.8425 15.8028 6.10272 19.2887L9.04111 25.5633C9.04111 25.5633 17.1781 9.52814 32.3219 0L33 1.162C33 1.162 16.0479 15.1056 11.0753 30.4436L7.45889 33C7.45889 32.9999 4.74656 20.683 0 19.5211Z"
+              fill="currentColor"
+            />
+          </svg>
+        </span>
+        <h3 class="font-bold text-white text-2xl sm:text-3xl lg:text-4xl">
+          Merci !
+        </h3>
+        <p
+          class="text-center font-normal text-white text-lg leading-[26px] sm:leading-[36px] lg:leading-[46px] sm:text-xl lg:text-2xl"
+        >
+          Nous vous contacterons dans un délai d’un jour ouvrable
+        </p>
+      </div>
+    </div>
+  } @else {
+    <form
+      [formGroup]="requestDemoFormGroup"
+      class="flex flex-col justify-center gap-4"
+      (ngSubmit)="onSubmit()"
+    >
+      @for (field of formFields; track field.id) {
+        <div class="flex flex-col gap-2">
+          <label for="{{ field.id }}" class="text-sm font-normal text-white"
+            >{{ field.label }}
+            @if (field.isRequired) {
+              <sup class="text-[rgb(235,57,66)]">*</sup>
+            }
+          </label>
+          <app-input
+            [fieldData]="field"
+            [formGroup]="requestDemoFormGroup"
+            [isFormSubmited]="this.isFormSubmited()"
+            className="w-full border border-solid border-app-secondary-dark text-sm rounded-[4px] bg-[rgba(240,240,252,1)] p-3 outline-none text-app-primay-dark sm:p-5 sm:text-lg"
+          />
+        </div>
+      }
+
+      <button
+        class="mt-4 mx-auto w-fit px-8 py-2 rounded-[10px] font-medium bg-white text-[rgba(60,70,76,1)] text-sm sm:mt-6 sm:px-16 sm:py-3 sm:text-lg"
+        type="submit"
+      >
+        Demander votre démo
+      </button>
+
+      <!-- reCAPTCHA -->
+      <p class="text-white mt-4">
+        This site is protected by reCAPTCHA and the Google
+        <a
+          class="text-app-secondary-dark"
+          href="https://policies.google.com/privacy"
+          >Privacy Policy</a
+        >
+        and
+        <a
+          class="text-app-secondary-dark"
+          href="https://policies.google.com/terms"
+          >Terms of Service</a
+        >
+        apply.
+      </p>
+    </form>
+  }
+</div>

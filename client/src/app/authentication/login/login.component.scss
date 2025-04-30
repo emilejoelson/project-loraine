@@ -1,0 +1,50 @@
+
+:host {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+  background-image: linear-gradient(135deg, #f0f4f8 0%, #e5e9f2 100%);
+}
+
+.form-checkbox:checked {
+  background-color: #6366f1;
+  border-color: #6366f1;
+}
+
+button[type="submit"] {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: all 0.6s;
+  }
+  
+  &:hover:before {
+    left: 100%;
+  }
+  
+  &:disabled {
+    background: #9ca3af;
+    cursor: not-allowed;
+  }
+}
+
+.social-btn {
+  @apply w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}

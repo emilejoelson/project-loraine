@@ -1,0 +1,15 @@
+@if (buttonData.behaviour === "link") {
+  <a
+    [routerLink]="buttonData.href ?? ''"
+    class="block text-center bg-[rgba(235,227,254,1)] border border-solid border-[rgba(32,0,229,0.2)] relative w-full tracking-[1.25px] px-[2em] py-[0.5em] rounded-[10px] font-medium text-customInherit text-app-highlight-dark transition-colors duration-300 ease-out hover:text-white hover:bg-app-accent-light"
+  >
+    {{ buttonData.name ?? "" }}
+  </a>
+} @else {
+  <button
+    class="bg-[rgba(235,227,254,1)] block text-center border border-solid border-[rgba(32,0,229,0.2)] relative w-full tracking-[1.25px] px-[2em] py-[0.5em] rounded-[10px] font-medium text-customInherit text-app-highlight-dark transition-colors duration-300 ease-out hover:text-white hover:bg-app-accent-light"
+    (click)="buttonData.action ? buttonData.action() : undefined"
+  >
+    {{ buttonData.name ?? "" }}
+  </button>
+}

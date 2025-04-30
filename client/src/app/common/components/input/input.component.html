@@ -1,0 +1,58 @@
+<div [formGroup]="formGroup">
+  @if (fieldData.type === "textArea") {
+  <textarea
+    id="{{ fieldData.id }}"
+    name="{{ fieldData.name }}"
+    [formControlName]="fieldData.formControlName"
+    class="w-full border border-solid border-app-secondary-dark text-lg rounded-[4px] bg-[rgba(240,240,252,1)] p-5 outline-none text-app-primay-dark"
+    [class.error]="isValidToShowError"
+    cols="30"
+    rows="10"
+    (focus)="onFoucs()"
+    (blur)="onBlur()"
+  ></textarea>
+  } @else { @if(fieldData.type ==='password'){
+  <div class="relative">
+    <input
+      type="{{ fieldData.type }}"
+      [type]="isPasswordVisible ? 'text' : 'password'"
+      id="{{ fieldData.id }}"
+      name="{{ fieldData.name }}"
+      [formControlName]="fieldData.formControlName"
+      class="border border-solid border-white"
+      [class]="className"
+      [class.error]="isValidToShowError"
+      (focus)="onFoucs()"
+      (blur)="onBlur()"
+      spellcheck="false"
+    />
+    <button
+      (click)="togglePasswordVisible()"
+      type="button"
+      class="absolute flex items-center justify-center transform top-1/2 -translate-y-1/2 right-6 transform inset-y-0"
+    >
+      <app-icon *ngIf="isPasswordVisible" iconName="eyeOff"></app-icon>
+      <app-icon *ngIf="!isPasswordVisible" iconName="eye"></app-icon>
+    </button>
+  </div>
+  } @else {
+  <input
+    type="{{ fieldData.type }}"
+    id="{{ fieldData.id }}"
+    name="{{ fieldData.name }}"
+    [formControlName]="fieldData.formControlName"
+    class="border border-solid border-white"
+    [class]="className"
+    [class.error]="isValidToShowError"
+    (focus)="onFoucs()"
+    (blur)="onBlur()"
+    spellcheck="false"
+  />
+  } } @if (isValidToShowError && fieldData.errorMessage) {
+  <p
+    class="text-[0.8125rem] leading-[1.53846] font-normal text-[rgb(235,57,66)]"
+  >
+    {{ fieldData.errorMessage }}
+  </p>
+  }
+</div>

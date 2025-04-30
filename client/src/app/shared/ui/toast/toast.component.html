@@ -1,0 +1,17 @@
+@for(toast of toasts;track toast){
+<li class="notifications toast" [ngClass]="toast.type">
+  <div class="notifications column">
+    <app-icon
+      *ngIf="toast.icon"
+      [iconName]="getIconName(toast.icon)"
+    ></app-icon>
+    <div class="toast-title">
+      <span class="toast-status">{{ toast.type }}</span>
+      <span class="toast-text">{{ toast.text }}</span>
+    </div>
+  </div>
+  <i class="cursor-pointer" (click)="closeToast(toast)"
+    ><app-icon iconName="closeModalIcon"></app-icon
+  ></i>
+</li>
+}

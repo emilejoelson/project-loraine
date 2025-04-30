@@ -1,0 +1,35 @@
+<div>
+  <input
+    [type]="fieldData.type"
+    aria-label="Number"
+    matInput
+    [matAutocomplete]="auto"
+    [formControl]="fieldData.formControlName"
+    [class]="className"
+    class="border border-solid border-white"
+    [class.error]="isValidToShowError"
+    (focus)="onFoucs()"
+    (blur)="onBlur()"
+    [name]="fieldData.name"
+    [id]="fieldData.id"
+  />
+
+  <mat-autocomplete #auto="matAutocomplete">
+    @for (country of filteredCountriesOptions | async; track country) {
+    <mat-option [value]="country.phoneCode">
+      <div class="flex items-center gap-2">
+        @if (generateCountryFlag(country.numeric)) {
+        <span
+          ><img
+            src="assets/svg/countries/{{
+                    generateCountryFlag(country.numeric)
+                  }}"
+            alt="{{ country.name }} flag"
+        /></span>
+        }
+        <span class="truncate">{{ country.phoneCode }}</span>
+      </div>
+    </mat-option>
+    }
+  </mat-autocomplete>
+</div>

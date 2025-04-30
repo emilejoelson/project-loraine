@@ -1,0 +1,17 @@
+<!-- CustomRadioButtonComponent HTML -->
+<div class="relative" [formGroup]="formGroup" [class]="classOption">
+    <input 
+      [id]="value" 
+      [name]="id"
+      [value]="value"
+      [formControlName]="id" 
+      type="radio" 
+      [class]="classInput"
+      [checked]="isSelected"
+      (click)="handleClick()" />
+    <label 
+      [for]="value" 
+      [class]="getLabelClass()">
+      {{ title }}
+    </label>
+  </div>

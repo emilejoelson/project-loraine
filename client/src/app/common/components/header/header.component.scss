@@ -1,0 +1,48 @@
+.servicesLinksList {
+  > li {
+    animation: showUp 0.3s calc(var(--item-index) * 0.3s) ease-out both;
+  }
+}
+img {
+  max-width: 70px;
+  height: 50px;
+  display: block;
+}
+@keyframes showUp {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.text-gradient {
+  background: linear-gradient(90deg, #fff 0%, #a74fa5 50%, #4a4a4a 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: gradient 2s linear infinite;
+}
+
+@keyframes gradient {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+

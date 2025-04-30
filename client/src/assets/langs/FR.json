@@ -1,0 +1,662 @@
+{
+  "APP_NAME": "Recrutement",
+  "LANGUAGE": ["Français", "Anglais"],
+  "HEADER": {
+    "OFFRES": "Offres",
+    "ETAPES": "Etapes",
+    "AVANTAGES": "Avantages",
+    "FAQ": "FAQ",
+    "CONTACT": "Contact",
+    "CLIENT": "Client",
+    "POSTULER_MAINTENANT": "Postuler maintenant"
+  },
+  "PROFILE": {
+    "SIGNUP": "S'inscrire",
+    "LOGIN": "Se connecter",
+    "ACCOUNT": "Votre Compte",
+    "MY_PROFILE": "Mon Profil",
+    "SETTINGS": "Paramètres",
+    "LOGOUT": "Déconnexion",
+    "SECTION_PROFILE": "Profil",
+    "SECTION_AUTH": "Authentification"
+  },
+  "HERO": {
+    "TITLE": {
+      "PART1": "Construisez",
+      "PART2": "votre avenir professionnel",
+      "PART3": "dès maintenant"
+    },
+    "SUBTITLE": {
+      "PART1": "Faites le choix de l'excellence et d'un avenir prometteur. Rejoignez-nous ",
+      "PART2": "aujourd'hui",
+      "PART3": " et ouvrez la porte à de nouvelles perspectives de carrière et de recrutement"
+    },
+    "CTA_VIDEO": "En savoir plus",
+    "BUTTONS": {
+      "POSTULER": "Postuler Maintenant",
+      "TROUVER_CANDIDAT": "Trouver un candidat"
+    }
+  },
+  "JOB_OFFERS": {
+    "TITLE": "Ces offres peuvent vous intéresser",
+    "COMMERCIAL": "Commercial",
+    "COMMUNITY_MANAGER": "Community Manager",
+    "DEVELOPPEUR_WEB": "Développeur Web",
+    "SECRETAIRE": "Sécretaire",
+    "PROFIL_BILINGUE": "Profil bilingue",
+    "OTHER": "Autre",
+    "TYPE": "Télétravail à temps plein",
+    "TIME": "Publiée il y a moins de 24h"
+  },
+  "STEPS": {
+    "TITLE": "Un processus de recrutement optimisé et transparent",
+    "SUBTITLE": "Un parcours structuré pour réussir !",
+    "DESCRIPTION": "Nous avons élaboré une approche rigoureuse et performante pour vous accompagner à chaque étape, en vous offrant toutes les garanties nécessaires pour postuler avec confiance et détermination.",
+    "BUTTON": "Déposer votre CV",
+    "STEPS_LIST": [
+      {
+        "TITLE": "Remplissage du formulaire",
+        "DESCRIPTION": "Il vous suffit de remplir le formulaire en ligne et de déposer votre CV, une démarche rapide et sécurisée."
+      },
+      {
+        "TITLE": "Analyse du profil",
+        "DESCRIPTION": "Nous examinons votre profil pour nous assurer de sa correspondance avec le poste que vous avez choisi, en tenant compte de vos compétences et de vos expériences."
+      },
+      {
+        "TITLE": "Entretien",
+        "DESCRIPTION": "Un entretien téléphonique vous permettra de faire connaissance, suivi d'un entretien en visioconférence pour approfondir l'échange."
+      },
+      {
+        "TITLE": "Validation et mise en relation",
+        "DESCRIPTION": "Une fois le processus validé, nous vous mettons en relation avec l'entreprise pour finaliser votre recrutement."
+      }
+    ]
+  },
+  "ADVANTAGES": {
+    "TITLE_PART1": "Pourquoi choisir",
+    "TITLE_PART2": "Recrutement ?",
+    "ITEMS": {
+      "EXPERTISE": {
+        "TITLE": "Expertise reconnue",
+        "DESCRIPTION": "Avec une spécialisation dans le secteur tech et recrutement, nous comprenons les besoins des entreprises et des candidats pour garantir un matching parfait."
+      },
+      "SIMPLICITY": {
+        "TITLE": "Simplicité et rapidité",
+        "DESCRIPTION": "Notre plateforme intuitive et notre processus simplifié permettent de gagner du temps tout en assurant des résultats de qualité."
+      },
+      "SUPPORT": {
+        "TITLE": "Accompagnement personnalisé",
+        "DESCRIPTION": "Nous sommes à vos côtés à chaque étape, avec des conseils et un suivi adaptés à vos besoins pour maximiser vos chances de succès."
+      }
+    }
+  },
+  "FAQ": {
+    "TITLE": "Questions Fréquentes",
+    "SUBTITLE": "Trouvez rapidement les réponses à vos questions",
+    "FAQITEMS": [
+      {
+        "QUESTION": "Est-ce que je peux postuler à plusieurs offres en même temps ?",
+        "ANSWER": "Oui, vous pouvez postuler à autant d'offres que vous le souhaitez, tant que votre profil correspond aux exigences des postes."
+      },
+      {
+        "QUESTION": "Comment savoir si mon CV a été reçu ?",
+        "ANSWER": "Après avoir soumis votre CV, vous serez dirigés vers une page qui confirme que votre candidature a bien été envoyée. Si nous avons besoin d'informations supplémentaires, nous vous contacterons directement."
+      },
+      {
+        "QUESTION": "Que se passe-t-il après l'entretien ?",
+        "ANSWER": "Après l'entretien, nous analysons les informations recueillies et vous informons rapidement de la suite donnée à votre candidature, en vous mettant en relation avec l'entreprise si vous êtes retenu."
+      },
+      {
+        "QUESTION": "Que faire si je rencontre un problème technique lors de ma candidature ?",
+        "ANSWER": "Si vous rencontrez des problèmes techniques, notre équipe support est disponible pour vous aider. Vous pouvez nous contacter via nos réseaux sociaux : Instagram et Facebook."
+      }
+    ]
+  },
+  "FOOTER": {
+    "TITLE": "Connectez-vous aux opportunités mondiales,",
+    "SUBTITLE": "MAXIMISEZ VOTRE POTENTIEL",
+    "LEGAL_NOTICE": "Mentions légales",
+    "TERMS_CONDITIONS": "Conditions générales de ventes",
+    "FOLLOW_US": "Suivez-nous",
+    "NAV_CANDIDATE": {
+      "CANDIDATE": "Candidat",
+      "BROWSE_OFFERS": "Parcourir les offres",
+      "DISCOVER_STEPS": "Découvrir les étapes",
+      "LEARN_MORE_ADVANTAGES": "En savoir plus sur les avantages",
+      "ACCESS_FAQ": "Accéder à la FAQ"
+    },
+    "NAV_CLIENT": {
+      "DISCOVER_OFFER": "Découvrir notre offre",
+      "ANALYZE_STATISTICS": "Analyser les statistiques",
+      "EXPLORE_SERVICES": "Explorer nos services",
+      "CHECK_PRICING": "Consulter nos tarifs",
+      "BROWSE_PROFILES": "Parcourir les profils disponibles",
+      "DEFINE_JOB_DESCRIPTION": "Définir une fiche de poste"
+    }
+  },
+  "CV_DEPOSIT": {
+    "TITLE": "Je télécharge mon CV",
+    "SUBTITLE": "Augmentez vos chances d'être contacté par des entreprises qui recrutent en déposant votre CV",
+    "PREVIOUS": "Précédent",
+    "NEXT": "Continuer",
+    "SUBMIT": "Valider",
+    "REQUIRED_FIELD": "Ce champ est requis",
+    "INVALID_EMAIL": "L'adresse e-mail n'est pas valide",
+    "STEP_1": {
+      "TITLE": "Information Personnel",
+      "CIVILITY": "Civilité ",
+      "CIVILITY_OPTIONS": {
+        "MRS": "Madame",
+        "MR": "Monsieur",
+        "MISS": "Mademoiselle"
+      },
+      "LAST_NAME": "Nom ",
+      "FIRST_NAME": "Prénom",
+      "EMAIL": "Email",
+      "PHONE": "Téléphone",
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recrutement conseille",
+        "CONTENT": "Nous vous recommandons de remplir attentivement ces informations pour faciliter votre identification en lien avec le poste qui vous intéresse !"
+      }
+    },
+    "STEP_2": {
+      "TITLE": "Information professionnelle",
+      "JOB_TITLE": "Poste recherché",
+      "CURRENT_POSITION": "Post occupé actuel",
+      "COMPANY": "Entreprise",
+      "EXPERIENCE": "Votre expérience",
+      "START_DATE": {
+        "TITLE": "Début",
+        "MONTH": "Mois",
+        "YEAR": "Année"
+      },
+      "END_DATE": {
+        "TITLE": "Fin",
+        "MONTH": "Mois",
+        "YEAR": "Année"
+      },
+      "MONTHS": {
+        "JANUARY": "Janvier",
+        "FEBRUARY": "Février",
+        "MARCH": "Mars",
+        "APRIL": "Avril",
+        "MAY": "Mai",
+        "JUNE": "Juin",
+        "JULY": "Juillet",
+        "AUGUST": "Août",
+        "SEPTEMBER": "Septembre",
+        "OCTOBER": "Octobre",
+        "NOVEMBER": "Novembre",
+        "DECEMBER": "Décembre"
+      },
+      "REMOTE_WORK_QUESTION": "Avez-vous déjà fait du télétravail ?",
+      "REMOTE_WORK_OPTIONS": {
+        "YES": "Oui",
+        "NO": "Non"
+      },
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recrutement conseille :",
+        "CONTENT": "Nous vous recommandons de remplir avec précision les informations professionnelles requises afin de faciliter l’évaluation de votre profil en lien avec le poste visé."
+      }
+    },
+    "STEP_3": {
+      "TITLE": "Information Académique et Motivationnelle",
+      "EDUCATION_LEVEL": "Niveau de formation ",
+      "EDUCATION_OPTIONS": [
+        "<Bac",
+        "Bac",
+        "Bac+1",
+        "Bac+2",
+        "Bac+3",
+        "Bac+4",
+        "Bac+5",
+        "Bac+6 et plus"
+      ],
+      "ADD_LANGUAGE": "Ajouter une langue",
+      "REMOVE_LANGUAGE": "Supprimer une langue",
+      "MOTIVATION": "Votre motivation",
+      "LANGUAGES": ["Français", "Anglais", "Allemand", "Espagnol", "Arabe"],
+      "LEVEL_LANGUAGE": [
+        "Avancé",
+        "Courant",
+        "Très bien",
+        "Intermédiaire",
+        "Bien",
+        "Faible"
+      ],
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recrutement conseille :",
+        "CONTENT": "Mettez votre formation la plus significative. Faites la différence : ajoutez quelques mots pour présenter votre profil aux recruteurs. Utilisez des mots-clés qui amélioreront la visibilité de votre CV."
+      },
+      "VOCABULARY": {
+        "LANGUAGE": "langue",
+        "LEVEL": "Niveau",
+        "ORDINAL": {
+          "FIRST": "ère",
+          "OTHER": "ème"
+        }
+      }
+    }
+  },
+  "CLIENT": {
+    "HERO": {
+      "TITLE": "Bienvenue dans l'Espace Clients",
+      "SUBTITLE": "Chez Consult Collab, nous simplifions le processus de recrutement en télétravail en connectant les entreprises avec les meilleurs talents.",
+      "BUTTONS": {
+        "DISCOVER_SERVICES": "Découvrir nos services",
+        "FILL_FORM": "Remplir une fiche"
+      }
+    },
+    "STATISTIC": {
+      "SATISFACTION_RATE": {
+        "VALUE": "98%",
+        "LABEL": "Taux de satisfaction"
+      },
+      "AVERAGE_RESPONSE_TIME": {
+        "VALUE": "48h",
+        "LABEL": "Délai de réponse moyen"
+      },
+      "SUCCESSFUL_RECRUITMENTS": {
+        "VALUE": "1000+",
+        "LABEL": "Recrutements réussis"
+      },
+      "REPLACEMENT_GUARANTEE": {
+        "VALUE": "15j",
+        "LABEL": "Garantie de remplacement"
+      }
+    },
+    "SERVICES": {
+      "TITLE": "Nos Services",
+      "DESCRIPTION": "Découvrez notre gamme complète de services de recrutement adaptés à vos besoins spécifiques.",
+      "NEEDS_ANALYSIS": {
+        "TITLE": "Analyse des besoins",
+        "DESCRIPTION": "Identification précise des profils spécifiques adaptés à vos besoins.",
+        "FEATURES": [
+          "Évaluation complète des besoins",
+          "Définition du profil idéal",
+          "Analyse de la culture d'entreprise"
+        ]
+      },
+      "TARGETED_SEARCH": {
+        "TITLE": "Recherche ciblée",
+        "DESCRIPTION": "Utilisation de bases de données intelligentes pour trouver les meilleurs candidats.",
+        "FEATURES": [
+          "Base de données qualifiée",
+          "Algorithme de matching",
+          "Vérification des références"
+        ]
+      },
+      "FAST_INTERVIEWS": {
+        "TITLE": "Entretiens rapides",
+        "DESCRIPTION": "Organisation d'entretiens sous 48 à 72 heures pour valider la compatibilité.",
+        "FEATURES": [
+          "Processus d'entretien optimisé",
+          "Tests de compétences rapides",
+          "Feedback immédiat"
+        ]
+      },
+      "COMPLETE_SUPPORT": {
+        "TITLE": "Accompagnement complet",
+        "DESCRIPTION": "Support personnalisé tout au long du processus de recrutement.",
+        "FEATURES": [
+          "Suivi personnalisé",
+          "Assistance administrative",
+          "Garantie de satisfaction"
+        ]
+      }
+    },
+    "PRINCING": {
+      "PRICING_PLANS": {
+        "TITLE": "Nos Tarifs et Packs de Recrutement",
+        "SUBTITLE": "Des solutions adaptées à tous vos besoins de recrutement"
+      },
+      "BUDGET_SECTION": {
+        "TITLE": "Budget par tranche",
+        "CANDIDATE_COUNT": "Nombre de candidats",
+        "PACK_ACTIVE": " activé",
+        "TOTAL_PRICE": "Prix total",
+        "PRICE_PER_CANDIDATE": "Prix par candidat",
+        "DISCOUNT_MESSAGE": [
+          "🎉 Vous bénéficiez du tarif avantageux du pack ",
+          "candidats"
+        ]
+      },
+      "PRICING_OPTIONS": {
+        "STANDARD_OFFER": {
+          "TITLE": "Offre Standard",
+          "PRICE": "candidat placé",
+          "FEATURES": [
+            "Analyse des besoins",
+            "Recherche ciblée",
+            "Présélection et organisation des entretiens",
+            "Suivi initial après la mise en relation"
+          ]
+        },
+        "RECRUITMENT_PACKS": {
+          "TITLE": "Packs de recrutement",
+          "POPULAR": "Populaire",
+          "PACK_5": {
+            "TITLE": "Pack 5 candidats",
+            "PRICE": "6 705€",
+            "PRICE_PER_CANDIDATE": ["Soit", "par candidat"],
+            "INSTEAD": "au lieu de 1 490€"
+          },
+          "PACK_10": {
+            "TITLE": "Pack 10 candidats",
+            "PRICE": "12 665€",
+            "PRICE_PER_CANDIDATE": ["Soit", "par candidat"],
+            "INSTEAD": "au lieu de 1 490€"
+          }
+        },
+        "DEPOSIT_OFFER": {
+          "TITLE": "Offre avec acompte",
+          "PRICE": "acompte initial",
+          "FEATURES": ["Déduit des frais fixes si un candidat est recruté"]
+        }
+      }
+    },
+    "PROFILES_TITLE": "Types de Profils Disponibles",
+    "JOB_PROFILES": [
+      {
+        "TITLE": "Commerciaux",
+        "DESCRIPTION": [
+          "Experts en négociation et en gestion de portefeuilles clients",
+          "Maîtrise des techniques de prospection et de closing pour maximiser les ventes",
+          "Capacité à analyser les besoins des clients et à proposer des solutions adaptées",
+          "Expérience en gestion de relations clients à long terme pour assurer leur fidélité"
+        ]
+      },
+      {
+        "TITLE": "Community Managers",
+        "DESCRIPTION": [
+          "Compétents en gestion de communautés en ligne sur plusieurs plateformes",
+          "Création de contenu engageant et adapté aux différentes audiences",
+          "Développement de stratégies digitales pour renforcer la visibilité et la notoriété des marques"
+        ]
+      },
+      {
+        "TITLE": "Profils Bilingues",
+        "DESCRIPTION": [
+          "Bilingues (anglais/français ou autres langues) pour gérer des communautés internationales",
+          "Compétence en gestion de projets dans des environnements diversifiés et internationaux",
+          "Aptitude à communiquer efficacement avec des clients et des équipes internationales"
+        ]
+      },
+      {
+        "TITLE": "Secrétaires",
+        "DESCRIPTION": [
+          "Organisation et gestion administrative efficace pour alléger vos tâches quotidiennes",
+          "Maîtrise des outils bureautiques et des logiciels spécialisés",
+          "Gestion des agendas, des déplacements professionnels et des réunions",
+          "Capacité à traiter les demandes urgentes avec réactivité et professionnalisme"
+        ]
+      },
+      {
+        "TITLE": "Développeurs Web",
+        "DESCRIPTION": [
+          "Création de sites internet performants et optimisés",
+          "Expertise en développement front-end et back-end pour des projets sur mesure",
+          "Maintenance et mise à jour régulières pour garantir la sécurité et la performance",
+          "Connaissance des dernières tendances technologiques et des normes en matière de web design et SEO"
+        ]
+      }
+    ],
+    "JOB_FORM": {
+      "TITLE": "Fiche de poste pour les clients",
+      "FIELDS": {
+        "COMPANY_NAME": "Nom de l'entreprise",
+        "CONTACT_EMAIL": "Email de contact",
+        "PHONE_NUMBER": "Numéro de téléphone",
+        "POSITION": "Poste recherché",
+        "SPECIFY_POSITION": "Précisez le poste",
+        "DESCRIPTION": "Description des besoins",
+        "BUDGET_MIN": "Budget mensuel",
+        "URGENCY": "Urgence"
+      },
+      "URGENT_OPTIONS": {
+        "VERY_URGENT": "Très urgent",
+        "WITHIN_7_DAYS": "Dans les 7 jours",
+        "NOT_URGENT": "Pas pressé"
+      },
+      "BUTTON_SUBMIT": "Envoyer",
+      "CC_RECRUITMENT_ADVICE": "CC Recrutement conseille",
+      "CC_RECRUITMENT_DESCRIPTION": "Optimisez votre recrutement en fournissant des informations précises sur votre entreprise et vos besoins. Nos experts vous accompagnent pour trouver les meilleurs talents adaptés à votre activité."
+    }
+  },
+  "LEGAL_NOTICE": {
+    "TITLE": "Informations de l'entreprise",
+    "FIELDS": {
+      "COMPANY_NAME": "Raison sociale",
+      "SIREN_NUMBER": "Numéro Siren",
+      "SIRET_NUMBER": "Numéro Siret",
+      "TAX_IDENT_NUMBER":"Identifiant fiscal",
+      "PROF_TAX_NUMBER":"Numéro de la taxe professionnelle",
+      "BUSINESS_ACTIVITY":"Activité exercée",
+      "VAT_NUMBER": "TVA intracommunautaire",
+      "REGISTRY": "Greffe",
+      "NAF_CODE": "Code NAF / APE",
+      "LEGAL_FORM": "Forme juridique",
+      "REGISTRATION_DATE": "Date d'immatriculation",
+      "CITY": "Commune d'implantation",
+      "ENTREPRENEUR": "Individual entrepreneur"
+    }
+  },
+  "SALE_GENERAL_CONDITION": {
+    "TITLE": "Conditions Générales de Vente (CGV) de Consult Collab Recrutement",
+    "CONTACT_INFO": {
+      "TITLE": "Informations de Contact",
+      "SUBTITLE": "Pour toute question ou information supplémentaire, veuillez nous contacter :"
+    },
+    "ARTICLES": {
+      "ARTICLE": "Article",
+      "TITLES": {
+        "1": "Description du service",
+        "2": "Conditions financières",
+        "3": "Lancement de la prestation",
+        "4": "Facturation",
+        "5": "Garantie de remplacement",
+        "6": "Engagement de l'entreprise",
+        "7": "Confidentialité et usage des données",
+        "8": "Droit applicable",
+        "9": "Acceptation des CGV"
+      },
+      "CONTENTS": {
+        "1": {
+          "INTRO": "Consult Collab Recrutement propose un service de mise en relation entre entreprises et freelances qualifiés, basés à l'étranger, disponibles pour un poste en télétravail à temps plein.",
+          "SERVICE_INCLUDES": "Le service inclut :",
+          "POINTS": {
+            "1": {
+              "TITLE": "Analyse des besoins",
+              "CONTENT": "Identification des critères du poste et des compétences requises"
+            },
+            "2": {
+              "TITLE": "Recherche ciblée et présélection",
+              "SUBPOINTS": [
+                "Recherche approfondie dans notre base de données internationale de freelances",
+                "Présélection et organisation d'un entretien anonyme via Google Meet sous 48 à 72 heures"
+              ]
+            },
+            "3": {
+              "TITLE": "Mise en relation",
+              "SUBPOINTS": [
+                "Présentation du freelance sélectionné pour validation par l'entreprise",
+                "Suivi initial après la mise en relation pour garantir la satisfaction"
+              ]
+            },
+            "4": {
+              "TITLE": "Garantie d'ajustement",
+              "CONTENT": "Possibilité de remplacement gratuit dans les 15 jours"
+            }
+          }
+        },
+        "2": [
+          "Frais de service pour la mise en relation réussie : 1 490 €",
+          "Acompte pour le lancement de la recherche : 447 €",
+          "TVA non applicable (article 293 B du CGI)",
+          "Total : 1 490 €"
+        ],
+        "3": "Le service commence à réception de l'acompte de 447 €, accompagné de l'acceptation du devis signé.",
+        "4": [
+          "Le paiement de l'acompte de 447 € est requis avant le démarrage de la recherche.",
+          "Une fois la mise en relation réussie confirmée, une facture finale de 1 043 € sera émise",
+          "Le contact du freelance sera communiqué uniquement après réception du paiement intégral.",
+          "Le règlement de la facture finale est exigé sous 7 jours suivant son émission."
+        ],
+        "5": [
+          "Si le freelance ne répond pas aux attentes de l'entreprise dans les 15 jours suivant le démarrage, un remplacement gratuit sera proposé.",
+          "Aucun remboursement ne sera accordé"
+        ],
+        "6": [
+          "L'entreprise contractualise directement avec le freelance pour un montant de 700 € par mois, conformément à l'accord établi lors de la mise en relation.",
+          "Consult Collab Recrutement n'intervient pas dans le cadre du contrat entre l'entreprise et le freelance."
+        ],
+        "7": [
+          "Les informations échangées dans le cadre de la prestation sont strictement confidentielles.",
+          "Consult Collab Recrutement s'engage à protéger les données personnelles conformément au Règlement Général sur la Protection des Données (RGPD)."
+        ],
+        "8": [
+          "Les présentes conditions générales de vente sont régies par le droit français.",
+          "Tout litige relatif à leur interprétation ou à leur exécution relève de la compétence des tribunaux français."
+        ],
+        "9": "L'acceptation du devis implique l'adhésion pleine et entière aux présentes conditions générales de vente"
+      }
+    }
+  },
+  "JOB_OFFER_DETAILS": {
+    "TITLE_PREFIX": "Devenez le",
+    "TITLE_SUFFIX": "qui Façonne l'Avenir",
+    "TAGS": {
+      "EXCEPTIONAL_OPPORTUNITY": "Opportunité Exceptionnelle",
+      "REMOTE_FULL_TIME": "Télétravail à temps plein"
+    },
+    "DESCRIPTION_INTRO": "Découvrez ci-dessous les informations générales concernant l'offre",
+    "DESCRIPTION_DETAILS": "incluant une description du poste, les principales responsabilités à assumer, ainsi que les compétences nécessaires pour exceller dans ce rôle",
+    "COMPANY_INFO": {
+      "PUBLISHED": "Publiée il y a moins de 24h",
+      "IMPROVE_SEARCH": "Améliorez votre recherche d'emploi",
+      "DESIRED_SALARY": "Salaire minimum souhaité",
+      "AMOUNT_PLACEHOLDER": "Saisir le montant",
+      "FREQUENCY": {
+        "MONTHLY": "Mensuel",
+        "ANNUAL": "Annuel"
+      }
+    },
+    "BUTTONS": {
+      "BACK": "Retour",
+      "CONTINUE": "Continuer",
+      "APPLY": "Postuler facilement",
+      "SHOW_MORE": "Voir plus",
+      "SHOW_LESS": "Voir moins"
+    },
+    "SECTIONS": {
+      "JOB_DESCRIPTION": "Description du poste",
+      "MAIN_MISSIONS": "Missions principales",
+      "REQUIRED_SKILLS": "Compétences requises",
+      "COMPENSATION": "Rémunération"
+    },
+    "SALARY": {
+      "PER_YEAR": "/an",
+      "EMPLOYER_EST": "(Employeur)",
+      "MEDIAN": "/an Médian"
+    },
+    "JOBS": {
+      "COMMERCIAL": {
+        "TITLE": "Commercial",
+        "COMPANY_DOMAIN": "Services Commerciaux",
+        "WORK_TYPE": "Télétravail à temps plein",
+        "DESCRIPTION": "Le Commercial est chargé de développer le portefeuille clients de l'entreprise, d'augmenter les ventes et de fidéliser les clients existants. Il est responsable de la gestion des relations commerciales de bout en bout, de la prospection à la conclusion des contrats.",
+        "MAIN_MISSIONS": [
+          "Identifier de nouveaux prospects et opportunités commerciales",
+          "Développer des stratégies de vente efficaces pour atteindre les objectifs fixés",
+          "Gérer les relations clients en assurant un suivi personnalisé",
+          "Négocier et conclure des contrats de vente",
+          "Collaborer avec les équipes internes pour assurer une bonne exécution des services"
+        ],
+        "REQUIRED_SKILLS": [
+          "Excellentes compétences en communication et négociation",
+          "Sens de l'organisation et capacité à travailler sous pression",
+          "Maitrise des outils CRM et des techniques de prospection"
+        ]
+      },
+      "SECRETAIRE": {
+        "TITLE": "Secrétaire",
+        "COMPANY_DOMAIN": "Support Administratif",
+        "WORK_TYPE": "Télétravail à temps plein",
+        "DESCRIPTION": "Le Secrétaire est chargé de la gestion administrative quotidienne de l'entreprise, incluant l'organisation des rendez-vous, la gestion des documents et la coordination des communications internes et externes.",
+        "MAIN_MISSIONS": [
+          "Gérer les appels téléphoniques, les courriels et le courrier",
+          "Planifier les rendez-vous et organiser les réunions",
+          "Rédiger et archiver des documents administratifs",
+          "Gérer l'accueil des visiteurs et le support logistique",
+          "Assister l'équipe dans diverses tâches administratives"
+        ],
+        "REQUIRED_SKILLS": [
+          "Excellente maîtrise des outils bureautiques (Word, Excel, PowerPoint)",
+          "Capacité d'organisation et de gestion du temps",
+          "Discrétion et sens de la confidentialité"
+        ]
+      },
+      "DEVELOPPEUR_WEB": {
+        "TITLE": "Développeur Web",
+        "COMPANY_DOMAIN": "Technologies",
+        "WORK_TYPE": "Télétravail à temps plein",
+        "DESCRIPTION": "Le Développeur Web est responsable de la conception, du développement et de la maintenance des sites web de l'entreprise ou de ses clients. Il travaille en collaboration avec d'autres équipes pour créer des expériences utilisateur optimales.",
+        "MAIN_MISSIONS": [
+          "Concevoir et développer des applications web responsives et performantes",
+          "Corriger les bugs et optimiser le code",
+          "Collaborer avec des designers pour intégrer des maquettes",
+          "Assurer la sécurité et la maintenance des sites",
+          "Rester à jour sur les nouvelles technologies et tendances"
+        ],
+        "REQUIRED_SKILLS": [
+          "Maîtrise des langages de programmation frontend : HTML, CSS, JavaScript",
+          "Connaissance des frameworks frontend : React, Angular ou Vue.js",
+          "Compétences backend : maîtrise de Java, Python, PHP ou Node.js avec leurs frameworks respectifs (Spring Boot, Django/Flask, Laravel/Symfony ou Express.js)",
+          "Expérience avec des CMS (WordPress, Drupal, etc.)",
+          "Bonne compréhension des bases de données SQL (MySQL, PostgreSQL) ou NoSQL (MongoDB, Firebase)",
+          "Connaissance des outils de versionnement comme Git",
+          "Capacités en résolution de problèmes et en optimisation de code",
+          "Compréhension des concepts DevOps, notamment l'utilisation de Docker pour la containerisation des applications"
+        ]
+      },
+      "COMMUNITY_MANAGER": {
+        "TITLE": "Community Manager",
+        "COMPANY_DOMAIN": "Marketing Digital",
+        "WORK_TYPE": "Télétravail à temps plein",
+        "DESCRIPTION": "Le Community Manager est chargé de gérer l'image de l'entreprise sur les réseaux sociaux. Il crée du contenu engageant, développe des communautés en ligne et assure une veille constante pour renforcer la notoriété et l'engagement.",
+        "MAIN_MISSIONS": [
+          "Développer et mettre en oeuvre une stratégie de contenu",
+          "Animer et modérer les communautés sur différentes plateformes",
+          "Rédiger des publications engageantes",
+          "Analyser les performances des campagnes et produire des rapports",
+          "Collaborer avec les équipes de marketing et de design"
+        ],
+        "REQUIRED_SKILLS": [
+          "Maîtrise des outils de gestion de réseaux sociaux",
+          "Excellentes compétences rédactionnelles et créatives"
+        ]
+      },
+      "PROFIL_BILINGUE": {
+        "TITLE": "Profil Bilingue",
+        "COMPANY_DOMAIN": "Communication Internationale",
+        "WORK_TYPE": "Télétravail à temps plein",
+        "DESCRIPTION": "Les profils bilingues sont recherchés pour divers rôles nécessitant des compétences en communication dans plusieurs langues afin d'assurer des échanges fluides avec des clients ou des partenaires internationaux.",
+        "MAIN_MISSIONS": [
+          "Communiquer efficacement en plusieurs langues",
+          "Traduire ou adapter des documents et contenus selon les besoins",
+          "Gérer les relations avec des clients ou partenaires multilingues",
+          "Participer à des projets nécessitant des compétences linguistiques spécialisées"
+        ],
+        "REQUIRED_SKILLS": [
+          "Bilinguisme obligatoire (français et anglais, ou autres langues selon le poste)",
+          "Excellentes compétences en communication orale et écrite",
+          "Capacité à travailler dans des environnements multiculturels"
+        ]
+      },
+      "BUTTONS": {
+        "SHOW_LESS": "Voir moins",
+        "SHOW_MORE": "Voir plus"
+      }
+    }
+  }
+}

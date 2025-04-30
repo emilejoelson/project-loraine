@@ -1,0 +1,684 @@
+{
+  "APP_NAME": "Recruitment",
+  "LANGUAGE":[
+    "French",
+    "English"
+  ],
+  "HEADER": {
+    "OFFRES": "Offers",
+    "ETAPES": "Steps",
+    "AVANTAGES": "Advantages",
+    "FAQ": "FAQ",
+    "CONTACT": "Contact",
+    "CLIENT": "Client",
+    "POSTULER_MAINTENANT": "Apply now"
+  },
+  "PROFILE": {
+    "SIGNUP": "Sign up",
+    "LOGIN": "Login",
+    "ACCOUNT": "Your Account",
+    "MY_PROFILE": "My Profile",
+    "SETTINGS": "Settings",
+    "LOGOUT": "Log Out",
+    "SECTION_PROFILE": "Profile",
+    "SECTION_AUTH": "Authentication"
+  },
+  "HERO": {
+    "TITLE": {
+      "PART1": "Build",
+      "PART2": "your professional future",
+      "PART3": "now"
+    },
+    "SUBTITLE": {
+      "PART1": "Choose excellence and a promising future. Join us ",
+      "PART2": "today",
+      "PART3": " and open the door to new career and recruitment perspectives"
+    },
+    "CTA_VIDEO": "Learn More",
+    "BUTTONS": {
+      "POSTULER": "Apply Now",
+      "TROUVER_CANDIDAT": "Find a Candidate"
+    }
+  },
+  "JOB_OFFERS": {
+    "TITLE": "These offers may interest you",
+    "COMMERCIAL": "Commercial",
+    "COMMUNITY_MANAGER": "Community Manager",
+    "DEVELOPPEUR_WEB": "Web Developer",
+    "SECRETAIRE": "Secretary",
+    "PROFIL_BILINGUE": "Bilingual Profile",
+    "OTHER": "Other",
+    "TYPE": "Full-time Remote Work",
+    "TIME": "Published less than 24h ago"
+  },
+  "STEPS": {
+    "TITLE": "An optimized and transparent recruitment process",
+    "SUBTITLE": "A structured path to success!",
+    "DESCRIPTION": "We have developed a rigorous and efficient approach to support you at every stage, offering you all the necessary guarantees to apply with confidence and determination.",
+    "BUTTON": "Submit your CV",
+    "STEPS_LIST": [
+      {
+        "TITLE": "Fill out the form",
+        "DESCRIPTION": "Simply fill out the form online and upload your CV, a quick and secure process."
+      },
+      {
+        "TITLE": "Profile analysis",
+        "DESCRIPTION": "We review your profile to ensure it matches the position you've chosen, taking into account your skills and experiences."
+      },
+      {
+        "TITLE": "Interview",
+        "DESCRIPTION": "A phone interview will allow us to get to know you, followed by a video interview to further discuss the exchange."
+      },
+      {
+        "TITLE": "Validation and connection",
+        "DESCRIPTION": "Once the process is validated, we will connect you with the company to finalize your recruitment."
+      }
+    ]
+  },
+  "ADVANTAGES": {
+    "TITLE_PART1": "Why choose",
+    "TITLE_PART2": "Recruitment?",
+    "ITEMS": {
+      "EXPERTISE": {
+        "TITLE": "Recognized expertise",
+        "DESCRIPTION": "With a specialization in the tech and recruitment sector, we understand the needs of companies and candidates to ensure a perfect match."
+      },
+      "SIMPLICITY": {
+        "TITLE": "Simplicity and speed",
+        "DESCRIPTION": "Our intuitive platform and streamlined process help save time while ensuring high-quality results."
+      },
+      "SUPPORT": {
+        "TITLE": "Personalized support",
+        "DESCRIPTION": "We are by your side at every step, offering advice and tailored guidance to maximize your chances of success."
+      }
+    }
+  },
+  "FAQ": {
+    "TITLE": "Frequently Asked Questions",
+    "SUBTITLE": "Find quick answers to your questions",
+    "FAQITEMS": [
+      {
+        "QUESTION": "Can I apply for multiple job offers at the same time?",
+        "ANSWER": "Yes, you can apply to as many job offers as you want, as long as your profile matches the job requirements."
+      },
+      {
+        "QUESTION": "How do I know if my CV has been received?",
+        "ANSWER": "After submitting your CV, you will be redirected to a confirmation page that ensures your application has been successfully sent. If we need additional information, we will contact you directly."
+      },
+      {
+        "QUESTION": "What happens after the interview?",
+        "ANSWER": "After the interview, we review the collected information and inform you promptly about the next steps, connecting you with the company if you are selected."
+      },
+      {
+        "QUESTION": "What should I do if I encounter a technical issue during my application?",
+        "ANSWER": "If you experience technical issues, our support team is available to assist you. You can contact us through our social media channels: Instagram and Facebook."
+      }
+    ]
+  },
+  "FOOTER": {
+    "TITLE": "Connect to global opportunities,",
+    "SUBTITLE": "MAXIMIZE YOUR POTENTIAL",
+    "LEGAL_NOTICE": "Legal Notice",
+    "TERMS_CONDITIONS": "Terms and Conditions of Sale",
+    "FOLLOW_US": "Follow us",
+    "NAV_CANDIDATE": {
+      "CANDIDATE": "Candidate",
+      "BROWSE_OFFERS": "Browse Offers",
+      "DISCOVER_STEPS": "Discover the Steps",
+      "LEARN_MORE_ADVANTAGES": "Learn More About the Advantages",
+      "ACCESS_FAQ": "Access the FAQ"
+    },
+    "NAV_CLIENT": {
+      "DISCOVER_OFFER": "Discover Our Offer",
+      "ANALYZE_STATISTICS": "Analyze Statistics",
+      "EXPLORE_SERVICES": "Explore Our Services",
+      "CHECK_PRICING": "Check Our Pricing",
+      "BROWSE_PROFILES": "Browse Available Profiles",
+      "DEFINE_JOB_DESCRIPTION": "Define a Job Description"
+    }
+  },
+  "CV_DEPOSIT": {
+    "TITLE": "I upload my CV",
+    "SUBTITLE": "Increase your chances of being contacted by hiring companies by submitting your CV",
+    "PREVIOUS": "Previous",
+    "NEXT": "Continue",
+    "SUBMIT": "Submit",
+    "REQUIRED_FIELD": "This field is required",
+    "INVALID_EMAIL": "Invalid email address",
+    "STEP_1": {
+      "TITLE": "Personal Information",
+      "CIVILITY": "Civility",
+      "CIVILITY_OPTIONS": {
+        "MRS": "Mrs.",
+        "MR": "Mr.",
+        "MISS": "Miss"
+      },
+      "LAST_NAME": "Last Name",
+      "FIRST_NAME": "First Name",
+      "EMAIL": "Email",
+      "PHONE": "Phone ",
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recruitment Advice",
+        "CONTENT": "We recommend that you carefully fill in this information to facilitate your identification in relation to the position that interests you !"
+      }
+    },
+    "STEP_2": {
+      "TITLE": "Professional Information",
+      "JOB_TITLE": "Desired Position",
+      "CURRENT_POSITION": "Current Position",
+      "COMPANY": "Company",
+      "EXPERIENCE": "Your experience",
+      "START_DATE": {
+        "TITLE": "Start Date",
+        "MONTH": "Month",
+        "YEAR": "Year"
+      },
+      "END_DATE": {
+        "TITLE": "End Date",
+        "MONTH": "Month",
+        "YEAR": "Year"
+      },
+      "MONTHS": {
+        "JANUARY": "January",
+        "FEBRUARY": "February",
+        "MARCH": "March",
+        "APRIL": "April",
+        "MAY": "May",
+        "JUNE": "June",
+        "JULY": "July",
+        "AUGUST": "August",
+        "SEPTEMBER": "September",
+        "OCTOBER": "October",
+        "NOVEMBER": "November",
+        "DECEMBER": "December"
+      },
+      "REMOTE_WORK_QUESTION": "Have you ever worked remotely?",
+      "REMOTE_WORK_OPTIONS": {
+        "YES": "Yes",
+        "NO": "No"
+      },
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recruitment Advice :",
+        "CONTENT": "We recommend that you accurately fill in the required professional information to facilitate the evaluation of your profile in relation to the targeted position."
+      }
+    },
+
+    "STEP_3": {
+      "TITLE": "Academic and Motivational Information",
+      "EDUCATION_LEVEL": "Education Level",
+      "EDUCATION_OPTIONS": [
+        "<High School",
+        "High School Diploma",
+        "1-Year Postgraduate",
+        "2-Year Postgraduate",
+        "Bachelor's Degree",
+        "Master's Degree",
+        "Post-Master's Degree",
+        "Doctorate and Above"
+      ],
+      "ADD_LANGUAGE": "Add a language",
+      "REMOVE_LANGUAGE": "Remove a language",
+      "MOTIVATION": "Your motivation",
+      "LANGUAGES": ["French", "English", "German", "Spanish", "Arabic"],
+      "LEVEL_LANGUAGE": [
+        "Advanced",
+        "Fluent",
+        "Very good",
+        "Intermediate",
+        "Good",
+        "Weak"
+      ],
+      "RECRUITMENT_ADVICE": {
+        "TITLE": "CC Recruitment Advice:",
+        "CONTENT": "Highlight your most relevant education. Stand out by adding a few words to introduce your profile to recruiters. Use keywords that will improve the visibility of your CV."
+      },
+      "VOCABULARY": {
+        "LANGUAGE": "language",
+        "LEVEL": "Level",
+        "ORDINAL": {
+          "FIRST": "st",
+          "SECOND": "nd",
+          "THIRD": "rd",
+          "OTHER": "th"
+        }
+      }
+    }
+  },
+  "CLIENT": {
+    "HERO": {
+      "TITLE": "Welcome to the Client Space",
+      "SUBTITLE": "At Consult Collab, we simplify the remote recruitment process by connecting companies with top talent.",
+      "BUTTONS": {
+        "DISCOVER_SERVICES": "Discover our services",
+        "FILL_FORM": "Fill out a form"
+      }
+    },
+    "STATISTIC": {
+      "SATISFACTION_RATE": {
+        "VALUE": "98%",
+        "LABEL": "Satisfaction rate"
+      },
+      "AVERAGE_RESPONSE_TIME": {
+        "VALUE": "48h",
+        "LABEL": "Average response time"
+      },
+      "SUCCESSFUL_RECRUITMENTS": {
+        "VALUE": "1000+",
+        "LABEL": "Successful recruitments"
+      },
+      "REPLACEMENT_GUARANTEE": {
+        "VALUE": "15d",
+        "LABEL": "Replacement guarantee"
+      }
+    },
+    "SERVICES": {
+      "TITLE": "Our Services",
+      "DESCRIPTION": "Discover our complete range of recruitment services tailored to your specific needs.",
+      "NEEDS_ANALYSIS": {
+        "TITLE": "Needs Analysis",
+        "DESCRIPTION": "Precise identification of specific profiles adapted to your needs.",
+        "FEATURES": [
+          "Complete needs assessment",
+          "Definition of the ideal profile",
+          "Company culture analysis"
+        ]
+      },
+      "TARGETED_SEARCH": {
+        "TITLE": "Targeted Search",
+        "DESCRIPTION": "Use of intelligent databases to find the best candidates.",
+        "FEATURES": [
+          "Qualified database",
+          "Matching algorithm",
+          "Reference verification"
+        ]
+      },
+      "FAST_INTERVIEWS": {
+        "TITLE": "Fast Interviews",
+        "DESCRIPTION": "Organization of interviews within 48 to 72 hours to validate compatibility.",
+        "FEATURES": [
+          "Optimized interview process",
+          "Fast skills tests",
+          "Immediate feedback"
+        ]
+      },
+      "COMPLETE_SUPPORT": {
+        "TITLE": "Complete Support",
+        "DESCRIPTION": "Personalized support throughout the recruitment process.",
+        "FEATURES": [
+          "Personalized follow-up",
+          "Administrative assistance",
+          "Satisfaction guarantee"
+        ]
+      }
+    },
+    "PRINCING": {
+      "PRICING_PLANS": {
+        "TITLE": "Our Pricing and Recruitment Packages",
+        "SUBTITLE": "Solutions tailored to all your recruitment needs"
+      },
+      "BUDGET_SECTION": {
+        "TITLE": "Budget per Range",
+        "CANDIDATE_COUNT": "Number of candidates",
+        "PACK_ACTIVE": "activated",
+        "TOTAL_PRICE": "Total price",
+        "PRICE_PER_CANDIDATE": "Price per candidate",
+        "DISCOUNT_MESSAGE": [
+          "🎉 You benefit from the advantageous rate of the pack",
+          "candidates"
+        ]
+      },
+      "PRICING_OPTIONS": {
+        "STANDARD_OFFER": {
+          "TITLE": "Standard Offer",
+          "PRICE": "placed candidate",
+          "FEATURES": [
+            "Needs analysis",
+            "Targeted search",
+            "Pre-selection and interview organization",
+            "Initial follow-up after connection"
+          ]
+        },
+        "RECRUITMENT_PACKS": {
+          "TITLE": "Recruitment Packages",
+          "POPULAR": "Popular",
+          "PACK_5": {
+            "TITLE": "5 Candidates Pack",
+            "PRICE": "6,705€",
+            "PRICE_PER_CANDIDATE": ["That’s", "per candidate"],
+            "INSTEAD": "instead of 1,490€"
+          },
+          "PACK_10": {
+            "TITLE": "10 Candidates Pack",
+            "PRICE": "12,665€",
+            "PRICE_PER_CANDIDATE": "That’s 1,266.5€ per candidate",
+            "INSTEAD": "instead of 1,490€"
+          }
+        },
+        "DEPOSIT_OFFER": {
+          "TITLE": "Deposit Offer",
+          "PRICE": "initial deposit",
+          "FEATURES": ["Deducted from fixed fees if a candidate is hired"]
+        }
+      }
+    },
+    "PROFILES_TITLE": "Types of Profiles Available",
+    "JOB_PROFILES": [
+      {
+        "TITLE": "Sales Representatives",
+        "DESCRIPTION": [
+          "Experts in negotiation and client portfolio management",
+          "Skilled in prospecting and closing techniques to maximize sales",
+          "Ability to analyze client needs and propose tailored solutions",
+          "Experience in managing long-term client relationships to ensure loyalty"
+        ]
+      },
+      {
+        "TITLE": "Community Managers",
+        "DESCRIPTION": [
+          "Skilled in managing online communities across multiple platforms",
+          "Creating engaging content tailored to different audiences",
+          "Developing digital strategies to enhance brand visibility and reputation"
+        ]
+      },
+      {
+        "TITLE": "Bilingual Profiles",
+        "DESCRIPTION": [
+          "Bilingual (English/French or other languages) to manage international communities",
+          "Skilled in project management in diverse and international environments",
+          "Aptitude for effective communication with clients and international teams"
+        ]
+      },
+      {
+        "TITLE": "Secretaries",
+        "DESCRIPTION": [
+          "Efficient administrative organization and management to lighten your daily tasks",
+          "Proficient in office tools and specialized software",
+          "Management of schedules, business trips, and meetings",
+          "Ability to handle urgent requests with responsiveness and professionalism"
+        ]
+      },
+      {
+        "TITLE": "Web Developers",
+        "DESCRIPTION": [
+          "Creating high-performance, optimized websites",
+          "Expertise in front-end and back-end development for custom projects",
+          "Regular maintenance and updates to ensure security and performance",
+          "Knowledge of the latest technological trends and web design/SEO standards"
+        ]
+      }
+    ],
+    "JOB_FORM": {
+      "TITLE": "Job Posting for Clients",
+      "FIELDS": {
+        "COMPANY_NAME": "Company Name",
+        "CONTACT_EMAIL": "Contact Email",
+        "PHONE_NUMBER": "Phone Number",
+        "POSITION": "Position",
+        "SPECIFY_POSITION": "Specify the position",
+        "DESCRIPTION": "Description of Needs",
+        "BUDGET_MIN": "Monthly Budget",
+        "BUDGET_MAX": "Monthly Budget",
+        "URGENCY": "Urgency"
+      },
+      "URGENT_OPTIONS": {
+        "VERY_URGENT": "Very Urgent",
+        "WITHIN_7_DAYS": "Within 7 Days",
+        "NOT_URGENT": "Not Urgent"
+      },
+      "BUTTON_SUBMIT": "Submit",
+      "CC_RECRUITMENT_ADVICE": "CC Recruitment Advice:",
+      "CC_RECRUITMENT_DESCRIPTION": "Optimize your recruitment by providing precise information about your company and needs. Our experts help you find the best talent suited to your activity."
+    }
+  },
+  "LEGAL_NOTICE": {
+    "TITLE": "Company Information",
+    "FIELDS": {
+      "COMPANY_NAME": "Company Name",
+      "SIREN_NUMBER": "Siren Number",
+      "SIRET_NUMBER": "Siret Number",
+      "TAX_IDENT_NUMBER":"Tax Identification Number",
+      "PROF_TAX_NUMBER":"Professional Tax Number",
+      "BUSINESS_ACTIVITY":"Business activity",
+      "VAT_NUMBER": "VAT Number",
+      "REGISTRY": "Registry",
+      "NAF_CODE": "NAF / APE Code",
+      "LEGAL_FORM": "Legal Form",
+      "REGISTRATION_DATE": "Registration Date",
+      "CITY": "Location",
+      "ENTREPRENEUR": "Individual entrepreneur"
+    }
+  },
+  "SALE_GENERAL_CONDITION": {
+    "TITLE": "General Terms and Conditions of Sale of Consult Collab Recruitment",
+    "CONTACT_INFO": {
+      "TITLE": "Contact Information",
+      "SUBTITLE": "For any questions or additional information, please contact us:"
+    },
+    "ARTICLES": {
+      "ARTICLE": "Article",
+      "TITLES": {
+        "1": "Service Description",
+        "2": "Financial Terms",
+        "3": "Service Initiation",
+        "4": "Billing",
+        "5": "Replacement Guarantee",
+        "6": "Company Commitment",
+        "7": "Confidentiality and Data Usage",
+        "8": "Applicable Law",
+        "9": "Terms Acceptance"
+      },
+      "CONTENTS": {
+        "1": {
+          "INTRO": "Consult Collab Recruitment offers a matching service between companies and qualified freelancers, based abroad, available for full-time remote positions.",
+          "SERVICE_INCLUDES": "The service includes:",
+          "POINTS": {
+            "1": {
+              "TITLE": "Needs Analysis",
+              "CONTENT": "Identification of position criteria and required skills"
+            },
+            "2": {
+              "TITLE": "Targeted Search and Pre-selection",
+              "SUBPOINTS": [
+                "Thorough search in our international freelancer database",
+                "Pre-selection and organization of an anonymous interview via Google Meet within 48 to 72 hours"
+              ]
+            },
+            "3": {
+              "TITLE": "Connection",
+              "SUBPOINTS": [
+                "Presentation of the selected freelancer for company validation",
+                "Initial follow-up after connection to ensure satisfaction"
+              ]
+            },
+            "4": {
+              "TITLE": "Adjustment Guarantee",
+              "CONTENT": "Free replacement possibility within 15 days"
+            }
+          }
+        },
+        "2": [
+          "Service fee for successful matching: €1,490",
+          "Down payment for search initiation: €447",
+          "VAT not applicable (Article 293 B of CGI)",
+          "Total: €1,490"
+        ],
+        "3": "The service begins upon receipt of the €447 down payment, accompanied by the signed quote acceptance.",
+        "4": [
+          "The €447 down payment is required before starting the search.",
+          "Once the successful match is confirmed, a final invoice of €1,043 will be issued",
+          "The freelancer's contact information will only be provided after full payment is received.",
+          "Final invoice payment is required within 7 days of issuance."
+        ],
+        "5": [
+          "If the freelancer does not meet the company's expectations within 15 days of starting, a free replacement will be offered.",
+          "No refunds will be granted"
+        ],
+        "6": [
+          "The company contracts directly with the freelancer for €700 per month, as per the agreement established during the connection.",
+          "Consult Collab Recruitment does not intervene in the contract between the company and the freelancer."
+        ],
+        "7": [
+          "Information exchanged during the service provision is strictly confidential.",
+          "Consult Collab Recruitment commits to protecting personal data in accordance with the General Data Protection Regulation (GDPR)."
+        ],
+        "8": [
+          "These general terms and conditions of sale are governed by French law.",
+          "Any dispute regarding their interpretation or execution falls under the jurisdiction of French courts."
+        ],
+        "9": "Acceptance of the quote implies full adherence to these general terms and conditions of sale"
+      }
+    }
+  },
+  "JOB_OFFER_DETAILS": {
+    "TITLE_PREFIX": "Become the",
+    "TITLE_SUFFIX": "Shaping the Future",
+    "TAGS": {
+      "EXCEPTIONAL_OPPORTUNITY": "Exceptional Opportunity",
+      "REMOTE_FULL_TIME": "Full-time Remote Work"
+    },
+    "DESCRIPTION_INTRO": "Discover below the general information about the",
+    "DESCRIPTION_DETAILS": "position, including a job description, main responsibilities, and the skills needed to excel in this role",
+    "COMPANY_INFO": {
+      "PUBLISHED": "Published less than 24h ago",
+      "IMPROVE_SEARCH": "Improve your job search",
+      "DESIRED_SALARY": "Desired minimum salary",
+      "AMOUNT_PLACEHOLDER": "Enter amount",
+      "FREQUENCY": {
+        "MONTHLY": "Monthly",
+        "ANNUAL": "Annual"
+      }
+    },
+    "BUTTONS": {
+      "BACK": "Back",
+      "CONTINUE": "Continue",
+      "APPLY": "Apply easily",
+      "SHOW_MORE": "Show more",
+      "SHOW_LESS": "Show less"
+    },
+    "SECTIONS": {
+      "JOB_DESCRIPTION": "Job Description",
+      "MAIN_MISSIONS": "Main Missions",
+      "REQUIRED_SKILLS": "Required Skills",
+      "COMPENSATION": "Compensation"
+    },
+    "SALARY": {
+      "PER_YEAR": "/year",
+      "EMPLOYER_EST": "(Employer.)",
+      "MEDIAN": "/year Median"
+    },
+    "JOBS": {
+      "COMMERCIAL": {
+        "TITLE": "Sales Representative",
+        "COMPANY": "Consult Collab",
+        "COMPANY_DOMAIN": "Commercial Services",
+        "WORK_TYPE": "Full-time Remote Work",
+        "SALARY_RANGE": "7.2K€ - 8.4K€",
+        "SALARY_MEDIAN": "7.8K€",
+        "DESCRIPTION": "The Sales Representative is responsible for developing the company's client portfolio, increasing sales, and maintaining customer loyalty. They handle end-to-end commercial relationships, from prospecting to contract closure.",
+        "MAIN_MISSIONS": [
+          "Identify new prospects and business opportunities",
+          "Develop effective sales strategies to achieve set objectives",
+          "Manage client relationships with personalized follow-up",
+          "Negotiate and close sales contracts",
+          "Collaborate with internal teams to ensure proper service delivery"
+        ],
+        "REQUIRED_SKILLS": [
+          "Excellent communication and negotiation skills",
+          "Strong organizational skills and ability to work under pressure",
+          "Proficiency in CRM tools and prospecting techniques"
+        ]
+      },
+      "SECRETAIRE": {
+        "TITLE": "Secretary",
+        "COMPANY": "Consult Collab",
+        "COMPANY_DOMAIN": "Administrative Support",
+        "WORK_TYPE": "Full-time Remote Work",
+        "SALARY_RANGE": "7.2K€ - 8.4K€",
+        "SALARY_MEDIAN": "7.8K€",
+        "DESCRIPTION": "The Secretary is responsible for the company's daily administrative management, including appointment scheduling, document management, and coordination of internal and external communications.",
+        "MAIN_MISSIONS": [
+          "Handle phone calls, emails, and mail",
+          "Schedule appointments and organize meetings",
+          "Draft and archive administrative documents",
+          "Manage visitor reception and logistical support",
+          "Assist the team with various administrative tasks"
+        ],
+        "REQUIRED_SKILLS": [
+          "Excellent proficiency in office tools (Word, Excel, PowerPoint)",
+          "Strong organizational and time management skills",
+          "Discretion and confidentiality"
+        ]
+      },
+      "DEVELOPPEUR_WEB": {
+        "TITLE": "Web Developer",
+        "COMPANY": "Consult Collab",
+        "COMPANY_DOMAIN": "Technology",
+        "WORK_TYPE": "Full-time Remote Work",
+        "SALARY_RANGE": "7.2K€ - 8.4K€",
+        "SALARY_MEDIAN": "7.8K€",
+        "DESCRIPTION": "The Web Developer is responsible for designing, developing, and maintaining websites for the company and its clients. They work collaboratively with other teams to create optimal user experiences.",
+        "MAIN_MISSIONS": [
+          "Design and develop responsive and performant web applications",
+          "Fix bugs and optimize code",
+          "Collaborate with designers to integrate mockups",
+          "Ensure website security and maintenance",
+          "Stay up-to-date with new technologies and trends"
+        ],
+        "REQUIRED_SKILLS": [
+          "Mastery of frontend programming languages: HTML, CSS, JavaScript",
+          "Knowledge of frontend frameworks: React, Angular, or Vue.js",
+          "Backend skills: proficiency in Java, Python, PHP, or Node.js with their respective frameworks (Spring Boot, Django/Flask, Laravel/Symfony, or Express.js)",
+          "Experience with CMS (WordPress, Drupal, etc.)",
+          "Good understanding of SQL databases (MySQL, PostgreSQL) or NoSQL (MongoDB, Firebase)",
+          "Knowledge of versioning tools like Git",
+          "Problem-solving and code optimization capabilities",
+          "Understanding of DevOps concepts, particularly Docker for application containerization"
+        ]
+      },
+      "COMMUNITY_MANAGER": {
+        "TITLE": "Community Manager",
+        "COMPANY": "Consult Collab",
+        "COMPANY_DOMAIN": "Digital Marketing",
+        "WORK_TYPE": "Full-time Remote Work",
+        "SALARY_RANGE": "7.2K€ - 8.4K€",
+        "SALARY_MEDIAN": "7.8K€",
+        "DESCRIPTION": "The Community Manager is responsible for managing the company's social media presence. They create engaging content, develop online communities, and maintain constant monitoring to strengthen awareness and engagement.",
+        "MAIN_MISSIONS": [
+          "Develop and implement content strategy",
+          "Animate and moderate communities across different platforms",
+          "Write engaging publications",
+          "Analyze campaign performance and produce reports",
+          "Collaborate with marketing and design teams"
+        ],
+        "REQUIRED_SKILLS": [
+          "Proficiency in social media management tools",
+          "Excellent writing and creative skills"
+        ]
+      },
+      "PROFIL_BILINGUE": {
+        "TITLE": "Bilingual Profile",
+        "COMPANY": "Consult Collab",
+        "COMPANY_DOMAIN": "International Communication",
+        "WORK_TYPE": "Full-time Remote Work",
+        "SALARY_RANGE": "7.2K€ - 8.4K€",
+        "SALARY_MEDIAN": "7.8K€",
+        "DESCRIPTION": "Bilingual profiles are sought for various roles requiring communication skills in multiple languages to ensure smooth interactions with international clients and partners.",
+        "MAIN_MISSIONS": [
+          "Communicate effectively in multiple languages",
+          "Translate or adapt documents and content as needed",
+          "Manage relationships with multilingual clients and partners",
+          "Participate in projects requiring specialized language skills"
+        ],
+        "REQUIRED_SKILLS": [
+          "Mandatory bilingualism (French and English, or other languages depending on the position)",
+          "Excellent oral and written communication skills",
+          "Ability to work in multicultural environments"
+        ]
+      },
+      "BUTTONS": {
+        "SHOW_LESS": "Show less",
+        "SHOW_MORE": "Show more"
+      }
+    }
+  }
+}

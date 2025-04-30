@@ -1,0 +1,148 @@
+.toast {
+  width: 400px;
+  display: flex;
+  position: fixed;
+  top: 20px;
+  right: 0;
+  overflow: hidden;
+  list-style: none;
+  border-radius: 4px;
+  padding: 16px 17px;
+  margin-bottom: 10px;
+  background: #f1f1f1;
+  justify-content: space-between;
+  animation: show_toast 2s ease forwards;
+  z-index: 999999999;
+}
+
+@keyframes show_toast {
+  0% {
+    transform: translateX(100%);
+  }
+  40% {
+    transform: translateX(-5%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-10px);
+  }
+}
+.notifications .toast.hide {
+  animation: hide_toast 0.3s ease forwards;
+}
+
+@keyframes hide_toast {
+  0% {
+    transform: translateX(-10px);
+  }
+  40% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(-5%);
+  }
+  100% {
+    transform: translateX(calc(100% + 20px));
+  }
+}
+/* Toast progress bar */
+.toast::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+  100% {
+    width: 0%;
+  }
+}
+/* Type-based toast styles */
+.toast.success {
+  background: #54A255; /* Light green background */
+  color: white; /* Dark green text */
+}
+
+.toast.error {
+  background: #BE362F; /* Light red background */
+  color: white; /* Dark red text */
+}
+
+.toast.warning {
+  background: #F99407; /* Light yellow background */
+  color: white; /* Dark yellow text */
+}
+
+.toast.info {
+  background: #d1ecf1; /* Light blue background */
+  color: #0c5460; /* Dark blue text */
+}
+
+/* Progress bar color based on toast type */
+.toast.success::before {
+  background: #28a745; /* Success green */
+}
+
+.toast.error::before {
+  background: #dc3545; /* Error red */
+}
+
+.toast.warning::before {
+  background: #ffc107; /* Warning yellow */
+}
+
+.toast.info::before {
+  background: #17a2b8; /* Info blue */
+}
+
+/* Toast title styles */
+.toast-title {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Toast status style (bolder text) */
+.toast-status {
+  font-weight: bolder;
+}
+
+/* Toast icon column */
+.toast .column {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+
+/* Toast icon size */
+.toast .column i {
+  font-size: 1.75rem;
+  z-index: 1000;
+}
+
+/* Icon color based on toast type */
+.toast.success .column i {
+  color: #28a745; /* Success green */
+}
+
+.toast.error .column i {
+  color: #dc3545; /* Error red */
+}
+
+.toast.warning .column i {
+  color: #ffc107; /* Warning yellow */
+}
+
+.toast.info .column i {
+  color: #17a2b8; /* Info blue */
+}
+
+/* Pointer cursor for close button */
+.pointer {
+  cursor: pointer;
+}/*# sourceMappingURL=toast.component.css.map */

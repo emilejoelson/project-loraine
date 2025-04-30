@@ -1,0 +1,20 @@
+<div [formGroup]="formGroup" class="relative">
+    <textarea
+      [id]="id"
+      [class]="classTextarea"
+      [formControlName]="id"
+      [rows]="rows"
+      [cols]="cols"
+      placeholder=" "
+      spellcheck="false"
+    ></textarea>
+    <label [for]="id" class="absolute" [class]="classLabel">
+      {{ title }} <span class="text-red-400 ">*</span>
+    </label>
+    @if(control?.touched && control?.errors?.['required']) {
+      <div class="text-red-500 text-sm mt-1">
+        {{'CV_DEPOSIT.REQUIRED_FIELD' | translate}}
+      </div>
+    }
+  </div>
+  

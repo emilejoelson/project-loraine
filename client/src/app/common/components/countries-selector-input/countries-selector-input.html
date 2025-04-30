@@ -1,0 +1,39 @@
+<div [formGroup]="formGroup">
+  <input
+    type="text"
+    aria-label="Number"
+    matInput
+    [formControlName]="fieldData.formControlName"
+    [matAutocomplete]="auto"
+    [class]="className"
+    [class.error]="isValidToShowError"
+    (focus)="onFoucs()"
+    (blur)="onBlur()"
+    id="{{ fieldData.id }}"
+    name="{{ fieldData.name }}"
+  />
+
+  <mat-autocomplete #auto="matAutocomplete">
+    @for (country of filteredCountriesOptions | async; track country) {
+    <mat-option [value]="country.name">
+      <div class="flex items-center gap-2">
+        @if (generateCountryFlag(country)) {
+        <span
+          ><img
+            src="assets/svg/countries/{{ generateCountryFlag(country) }}"
+            alt="{{ country.name }} flag"
+        /></span>
+        } {{ country.name }}
+      </div>
+    </mat-option>
+    }
+  </mat-autocomplete>
+
+  @if (isValidToShowError && fieldData.errorMessage) {
+  <p
+    class="text-[0.8125rem] leading-[1.53846] font-normal text-[rgb(235,57,66)]"
+  >
+    {{ fieldData.errorMessage }}
+  </p>
+  }
+</div>

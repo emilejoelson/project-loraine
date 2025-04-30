@@ -1,0 +1,85 @@
+<footer #headerElement class="bg-gray-800 text-white py-12">
+  <div class="container mx-auto px-6">
+    <div class="grid md:grid-cols-4 gap-8">
+      <div class="custom-650:text-center">
+        <div class="flex items-center gap-2 mb-6">
+          <span>
+            <img
+              className="floating w-8 h-8 object-contain"
+              src="assets/icons/cc-logo.png"
+              alt="Logo"
+            />
+          </span>
+          <span class="text-xl font-bold">{{'APP_NAME' | translate}}</span>
+        </div>
+        <p>{{'FOOTER.TITLE' | translate}}</p>
+        <p>{{'FOOTER.SUBTITLE' | translate}}</p>
+      </div>
+
+      <div class="custom-650:text-center">
+        <h3 class="font-bold text-xl mb-4">{{'FOOTER.NAV_CANDIDATE.CANDIDATE' | translate}}</h3>
+        <ul class="space-y-2 text-gray-400">
+          @for(jobseeker of navCandidates.links;track jobseeker){
+          <li
+            (click)="scrollToSection(jobseeker.sectionId)"
+            class="hover:text-white cursor-pointer transition-colors"
+          >
+            {{ jobseeker.name | translate}}
+          </li>
+          }
+        </ul>
+      </div>
+
+      <div class="custom-650:text-center">
+        <h3 class="font-bold text-xl mb-4">Client</h3>
+        <ul class="space-y-2 text-gray-400">
+          @for(client of navClients.links;track client){
+          <li
+            (click)="scrollToSection(client.sectionId, true)"
+            class="hover:text-white cursor-pointer transition-colors"
+          >
+            {{ client.name | translate}}
+          </li>
+          }
+        </ul>
+      </div>
+
+      <div class="custom-650:text-center">
+        <h3 class="font-bold text-xl mb-5">{{'FOOTER.FOLLOW_US' | translate}}</h3>
+        <div class="flex justify-center text-gray-400 space-x-6">
+          @for(social of footerItems.socialMedia;track social){
+            <a
+              [href]="social.link"
+              target="_blank"
+              class="rounded-xl p-4 transition {{social.customClass}}"
+            >
+              <i class="{{ social.icon }} text-6xl"></i>
+            </a>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="border-t flex justify-center border-gray-700 mt-12 pt-8 text-center text-gray-400"
+    >
+      <p>
+        <span
+          (click)="onClickLegalNotice()"
+          class="hover:text-white font-bold cursor-pointer"
+        >
+        {{'FOOTER.LEGAL_NOTICE' | translate}}
+        </span>
+        <span class="mx-2">|</span>
+        <span
+          (click)="onClickCGV()"
+          class="hover:text-white font-bold cursor-pointer"
+        >
+        {{'FOOTER.TERMS_CONDITIONS' | translate}}
+        </span>
+        <span class="mx-2">|</span>
+        <span>&copy; {{ currentYear }} Consult Collab</span>
+      </p>
+    </div>
+  </div>
+</footer>
