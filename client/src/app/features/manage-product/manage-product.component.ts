@@ -1,13 +1,14 @@
 // src/app/manage-product/manage-product.component.ts
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, FormArray, Validators, ReactiveFormsModule } from '@angular/forms';
 import { Client, Commande, LigneCMD, OrderStatus, Product } from './data-access/models/manage-product';
 import { ProductManagementService } from './data-access/services/product-management.service';
+import { CommonModule } from '@angular/common';
 
 
 @Component({
   selector: 'app-manage-product',
-  imports: [],
+  imports: [CommonModule,ReactiveFormsModule],
   templateUrl: './manage-product.component.html',
   styleUrl: './manage-product.component.scss'
 })
